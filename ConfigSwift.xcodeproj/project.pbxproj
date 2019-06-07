@@ -11,6 +11,8 @@
 		C91D2DB122AA368C00E07401 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91D2DB022AA368C00E07401 /* RootViewController.swift */; };
 		C91D2DB322AA368D00E07401 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C91D2DB222AA368D00E07401 /* Assets.xcassets */; };
 		C91D2DB622AA368D00E07401 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C91D2DB422AA368D00E07401 /* LaunchScreen.storyboard */; };
+		C91D2DBE22AA36A900E07401 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91D2DBD22AA36A900E07401 /* Config.swift */; };
+		C91D2DC022AA36EC00E07401 /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = C91D2DBF22AA36EC00E07401 /* Config.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		C91D2DB222AA368D00E07401 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C91D2DB522AA368D00E07401 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C91D2DB722AA368D00E07401 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C91D2DBD22AA36A900E07401 /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		C91D2DBF22AA36EC00E07401 /* Config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Config.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,8 @@
 		C91D2DAD22AA368C00E07401 /* ConfigSwift */ = {
 			isa = PBXGroup;
 			children = (
+				C91D2DBD22AA36A900E07401 /* Config.swift */,
+				C91D2DBF22AA36EC00E07401 /* Config.plist */,
 				C91D2DAE22AA368C00E07401 /* AppDelegate.swift */,
 				C91D2DB022AA368C00E07401 /* RootViewController.swift */,
 				C91D2DB222AA368D00E07401 /* Assets.xcassets */,
@@ -120,6 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C91D2DB322AA368D00E07401 /* Assets.xcassets in Resources */,
+				C91D2DC022AA36EC00E07401 /* Config.plist in Resources */,
 				C91D2DB622AA368D00E07401 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -133,6 +140,7 @@
 			files = (
 				C91D2DB122AA368C00E07401 /* RootViewController.swift in Sources */,
 				C91D2DAF22AA368C00E07401 /* AppDelegate.swift in Sources */,
+				C91D2DBE22AA36A900E07401 /* Config.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

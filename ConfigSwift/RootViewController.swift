@@ -13,6 +13,7 @@ class RootViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        print("Language is: \(ConfigValues.get().language) \(ConfigValues.get().MyDict.version)")
     }
 
 
